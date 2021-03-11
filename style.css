@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(247, 247, 247);
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(92, 103, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: white;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+header img {
+    width: 100px;
+	margin-right: 10px;
+}
+
+main {
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* align-items: start; */
+    padding-top: 50px;
+    font-size: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+}
+
+form>label{
+    margin: 10px 0 5px 0;
+}
+
+.funcBlock {
+    width: fit-content;
+    padding: 1em;
+}
+
+.funcBlock div {
+    padding: 1em;
+    border: 2px solid red;
+}
+
+main div:not(:last-child) {
+    margin-right: 8px;
+}
+
+main table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+main table td, th {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(92, 103, 168);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
